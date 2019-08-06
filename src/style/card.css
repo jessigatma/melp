@@ -5,9 +5,16 @@ img {
 }
 
 h6 {
-    font-size: 80%;
+    font-weight: 400;
+    font-size: .9rem;
 }
 
 p {
-    font-size: 70%;
+    font-size: .8rem;
+}
+
+.container {
+    -webkit-box-shadow: -7px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -7px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -7px 10px 18px 0px rgba(0, 0, 0, 0.75);
 }

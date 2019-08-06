@@ -15,7 +15,7 @@ class Cards extends Component {
       <div>
         <MDBContainer>
           {data.restaurants.map((item, index) => (
-            <div key={index}>
+            <div key={index} className="container">
               <MDBRow>
                 <MDBCol size="4" xs="4">
                   <div>
@@ -31,8 +31,8 @@ class Cards extends Component {
                   <p>{item.description}</p>
                 </MDBCol>
                 <MDBCol size="2" xs="2">
-                  <span>{item.raiting}</span> <br />
-                  <span>${item.price}</span>
+                  <p>{item.raiting}</p>
+                  <p>${item.price}</p>
                 </MDBCol>
               </MDBRow>
             </div>
